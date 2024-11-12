@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div class="bg-gradient-to-r from-teal-300 to-teal-500 px-2 md:px-0">
+    <div class="bg-gradient-to-r from-teal-300 to-teal-500 px-2 md:px-0 sticky top-0 z-50">
       <div class="container mx-auto ">
         <div class="flex flex-col md:flex-row justify-between items-center p-4 text-softCream ">
           <div className="flex space-x-3 md:space-x-9 mt-0">
